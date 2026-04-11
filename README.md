@@ -40,11 +40,18 @@ ScaleTail provides ready-to-run [Docker Compose](https://docs.docker.com/compose
    docker compose up -d
    ```
 
+## Contributors
+
+A huge thank you to all our contributors! ScaleTail wouldn’t be what it is today without your time, effort, and ideas!
+
+[![Contributors](https://contrib.rocks/image?repo=tailscale-dev/scaletail)](https://github.com/tailscale-dev/scaletail/graphs/contributors)
+
 ## Table of Contents
 
 - [ScaleTail - Secure Self-Hosting Made Simple](#scaletail---secure-self-hosting-made-simple)
   - [Featured by Tailscale](#featured-by-tailscale)
   - [Quick Start](#quick-start)
+  - [Contributors](#contributors)
   - [Table of Contents](#table-of-contents)
   - [Available Configurations](#available-configurations)
     - [🌐 Networking and Security](#-networking-and-security)
@@ -75,6 +82,7 @@ ScaleTail provides ready-to-run [Docker Compose](https://docs.docker.com/compose
 | 🔄 **AdGuardHome Sync**    | A tool for syncing configuration across multiple AdGuard Home instances.        | [Details](services/adguardhome-sync)    |
 | 🌐 **Caddy**               | Caddy is an extensible server platform that uses TLS by default.                | [Details](services/caddy)               |
 | 🌐 **DDNS Updater**        | A self-hosted solution to keep DNS A/AAAA records updated automatically.        | [Details](services/ddns-updater)        |
+| 🌐 **Flaresolverr**        | A proxy server to bypass Cloudflare and DDoS-GUARD protection.                  | [Details](services/flaresolverr)        |
 | 🔍 **Nessus**              | A powerful vulnerability scanner with a free Essentials model for home use.     | [Details](services/nessus)              |
 | 🗃️ **Netbox**              | NetBox is the leading solution for modeling and documenting modern networks.    | [Details](services/netbox)              |
 | 🧩 **Pi-hole**             | A network-level ad blocker that acts as a DNS sinkhole.                         | [Details](services/pihole)              |
@@ -99,6 +107,7 @@ ScaleTail provides ready-to-run [Docker Compose](https://docs.docker.com/compose
 | 🎶 **Navidrome**      | Your Personal Streaming Service self-hosted.                                                | [Details](services/navidrome)      |
 | 🎶 **Swing Music**    | A fast, beautiful, self-hosted music streaming server for your local audio library.         | [Details](services/swingmx)        |
 | 🎬 **Seerr**          | A request management and media discovery tool for Plex, Jellyfin and Emby.                  | [Details](services/seerr)          |
+| 📚 **Paperless-ngx** | An open-source document management system that transforms physical documents into a searchable archive. | [Details](services/paperless) |
 | 🎵 **Picard**         | MusicBrainz Picard is a cross-platform music tagger for organizing and tagging music files. | [Details](services/picard)         |
 | 🎬 **Plex**           | A media server that organizes video, music, and photos from personal media libraries.       | [Details](services/plex)           |
 | 📥 **qBittorrent**    | An open-source BitTorrent client.                                                           | [Details](services/qbittorrent)    |
@@ -127,6 +136,7 @@ ScaleTail provides ready-to-run [Docker Compose](https://docs.docker.com/compose
 | 📝 **Excalidraw**    | A virtual collaborative whiteboard tool.                                                                                                                                   | [Details](services/excalidraw)    |
 | 📝 **Flatnotes**     | A simple, self-hosted note-taking app using Markdown files.                                                                                                                | [Details](services/flatnotes)     |
 | 👨🏼‍💻 **Forgejo**       | A community-driven, self-hosted Git service.                                                                                                                               | [Details](services/forgejo)       |
+| 👨🏼‍💻 **Gitea**         | A lightweight, self-hosted Git service with repository hosting, pull requests, and issue tracking.                                                                        | [Details](services/gitea)         |
 | ✍️ **Ghost**         | A modern, open-source publishing platform for blogs and newsletters.                                                                                                       | [Details](services/ghost)         |
 | 🧑‍🧑‍🧒‍🧒 **Gramps Web** | A web-based genealogy platform for collaborative family tree browsing, editing, AI-powered chat, media tagging, mapping, charts, search, and reporting.                    | [Details](services/grampsweb)     |
 | 🔖 **Haptic**        | Haptic is a new local-first & privacy-focused, open-source home for your markdown notes.                                                                                   | [Details](services/haptic)        |
